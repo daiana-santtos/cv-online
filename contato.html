@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Contato</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav_ul">
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main id="contato"
+>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Entre em contato</legend>
+
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required autocomplete="off">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required autocomplete="off">
+
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" rows="7" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
